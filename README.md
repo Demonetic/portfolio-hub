@@ -13,7 +13,7 @@ https://anna-projects.duckdns.org
 ## Projects
 
 - [Launch Window](https://github.com/Demonetic/launch-window)
-- [Monster Hunter Board](https://github.com/Demonetic/monster-hunting-board)
+- Monster Hunting Board — [Website](https://monster-hunting-board.duckdns.org/) · [Source](https://github.com/Demonetic/monster-hunting-board)
 
 ## Technology
 
@@ -43,4 +43,4 @@ http://localhost:8000
 
 ## Deployment
 
-The production server uses Caddy to serve the static files. Deployment automation will be added after the initial server setup.
+The production server uses Caddy to serve the static files. Pushes to `main` are deployed automatically through the active GitHub Actions CD workflow.

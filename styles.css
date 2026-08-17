@@ -185,8 +185,7 @@ h1 {
 }
 
 .monster-card .project-kind,
-.monster-card .project-body p,
-.monster-card .future-url { color: #19382d; }
+.monster-card .project-body p { color: #19382d; }
 
 .project-topline {
   display: flex;
@@ -288,8 +287,6 @@ h1 {
 .featured .button.secondary:hover { background: var(--cream); color: var(--forest-deep); }
 .button.disabled { cursor: not-allowed; opacity: .42; }
 .button.disabled:hover { transform: none; }
-
-.future-url { margin: 20px 0 0; color: var(--muted); font-size: .75rem; }
 
 .api-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 .compact { display: flex; flex-direction: column; margin: 0; }
